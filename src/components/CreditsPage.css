@@ -1,0 +1,84 @@
+/* Creditspage.css */
+body {
+  font-family: 'Arial Black', sans-serif;
+  background-color: #000;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.credits-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-overlay {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  z-index: 0;
+  opacity: 0.2;
+}
+
+/* Upper Bar with Back to Landing Page Link */
+.upper-bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  padding: 10px 0;
+  text-align: center;
+  z-index: 2;
+}
+
+.back-link {
+  font-size: 1.2rem;
+  color: #FFD700;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #ff9900; /* Hover effect for Back link */
+}
+
+/* Credits Section */
+.credits-section {
+  text-align: center;
+  z-index: 2;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #FFD700; /* Golden border around the avatar */
+}
+
+.creator-name {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 8px #FFD700;
+}
+
+.creator-info {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #888;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9rem;
+  z-index: 1;
+  color: #888;
+}

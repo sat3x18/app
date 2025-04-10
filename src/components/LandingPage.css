@@ -1,0 +1,107 @@
+/* LandingPage.css */
+body {
+  font-family: 'Arial Black', sans-serif;
+  background-color: #000;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.landing-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-overlay {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  z-index: 0;
+  opacity: 0.2;
+}
+
+/* Upper Bar with Credits Link */
+.upper-bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  padding: 10px 0;
+  text-align: center;
+  z-index: 2;
+}
+
+.credits-link {
+  font-size: 1.2rem;
+  color: #FFD700;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.credits-link:hover {
+  color: #ff9900; /* Hover effect for Credits link */
+}
+
+/* Header Section */
+.header {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.game-logo {
+  width: 300px;
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  text-shadow: 0 0 8px #FFD700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.play-button {
+  font-size: 1.5rem;
+  padding: 18px 36px;
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.features {
+  text-align: center;
+  margin-top: 60px;
+  z-index: 2;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9rem;
+  z-index: 1;
+  color: #888;
+}
