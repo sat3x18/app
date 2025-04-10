@@ -6,7 +6,7 @@ import './LandingPage.css'; // Import the CSS for styling
 
 function LandingPage() {
   const handlePlayClick = () => {
-    window.open('https://www.roblox.com/games/YOUR_GAME_ID_HERE', '_blank'); // Link to the game
+    window.open('https://www.roblox.com/games/98360831032292', '_blank'); // Link to the game
   };
 
   return (
